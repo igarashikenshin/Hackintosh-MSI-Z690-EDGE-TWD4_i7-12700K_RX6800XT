@@ -1,0 +1,2 @@
+# -Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT
+ Hackintosh on MSI-Z690-EDGE-TWD4 without i7-12700K and RX6800XT
