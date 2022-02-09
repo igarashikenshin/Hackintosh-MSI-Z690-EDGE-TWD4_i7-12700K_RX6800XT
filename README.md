@@ -2,7 +2,6 @@
 
 ## *交流QQ群：1071120659*
 
-[中文](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT/blob/master/README.md)｜[English](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT/blob/master/README-EN.md)
 
 ![System Info](https://s2.loli.net/2022/02/09/peG6bjtsJKAIOXM.png)
 
