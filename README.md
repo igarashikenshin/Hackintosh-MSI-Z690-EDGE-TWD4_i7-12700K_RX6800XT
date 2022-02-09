@@ -4,7 +4,7 @@
 
 [中文](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT/blob/master/README.md)｜[English](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT/blob/master/README-EN.md)
 
-![System Info](pic)
+![System Info](https://s2.loli.net/2022/02/09/peG6bjtsJKAIOXM.png)
 
 
 ### 配置
@@ -21,7 +21,13 @@
 1. 固态硬盘: Western Digital SSD SN850 1TB
 
 ### BIOS设置
-待补充
+1. Settings\高级\PCIe/PCI子系统设置：Re-Size BAR Support-允许
+2. Settings\高级\整合周边设备：Onboard CNVi Module Control-Disable Integrated
+3. Settings\高级\内建显示配置：集成显卡多显示器-禁止
+4. Settings\高级\Beta Runner：选择Settings\高级\NVMe SSD Self-Test，选择取消即可进入，选择SR-IOV Support-允许
+5. Settings\启动：快速开机-禁止
+6. Overclocking\CPU 特征：Intel VT-D技术-允许；CFG锁定-禁止
+
 
 **可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 12.3 beta1**
 
@@ -30,22 +36,22 @@
 1. UHD770：无法驱动，BIOS屏蔽处理。
 1. RX6800XT：正常，原生驱动。
 
-![Graphics Card](pic)
+![Graphics Card](https://s2.loli.net/2022/02/09/AdihloJsO9jZcEG.png)
 
 1. 3.5mm声音 & HDMI：均正常使用，使用AppleALC驱动。
 1. USB：正常。
 1. 有线网卡：正常。
 1. 睡眠唤醒：正常。
 
-![Power Saver](pic)
+![Power Saver](https://s2.loli.net/2022/02/09/f5PQ6731X2ukqIU.png)
 
 1. 关机开机：正常。
 1. iCloud & App Store & iMessage & FaceTime：请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM。
 1. AirDrop & HandOff & Continuity：正常。
 
-![Wi-Fi en1](pic)
-![BlueTooth](pic)
-![Apple Watch](pic)
+![Wi-Fi en1](https://s2.loli.net/2022/02/09/2XrCMNRca15oUYj.png)
+![BlueTooth](https://s2.loli.net/2022/02/09/PLTa14XQ53ez7S6.png)
+![Apple Watch](https://s2.loli.net/2022/02/09/qPAD1pdlZMU7hux.png)
 
 ### Tips：
 
@@ -61,7 +67,7 @@
 1. 无法远程VNC连接此机器（或因无核显导致vnc协议无法输出图像？）
 1. RX6000系显卡调用策略有问题，无论是否通过weg驱动，利用率都表现很差（如果有好的解决方案，请通过issue提交给我，谢谢！）
 
-![Boot Camp](pic)
+![Boot Camp](https://s2.loli.net/2022/02/09/2pdDMUnsmHl5J4B.png)
 
 ![打赏](https://s3.bmp.ovh/imgs/2022/02/518d817d09e604ab.jpg)
 
