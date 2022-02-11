@@ -3,7 +3,7 @@
 ## *交流QQ群：1071120659*
 
 
-![System Info](https://s2.loli.net/2022/02/09/peG6bjtsJKAIOXM.png)
+![System Info](https://s2.loli.net/2022/02/11/NE8vqsDHxrnzWhV.png)
 
 
 ### 配置
@@ -63,7 +63,7 @@
 
 ### 目前已知问题：
 
-1. 无法远程VNC连接此机器（或因无核显导致vnc协议无法输出图像？）
+1. 无法远程VNC连接此机器（12.2版本存在该问题，12.2.1版本已经可用）
 1. RX6000系显卡调用策略有问题，无论是否通过weg驱动，利用率都表现很差（如果有好的解决方案，请通过issue提交给我，谢谢！）
 
 ![Boot Camp](https://s2.loli.net/2022/02/09/2pdDMUnsmHl5J4B.png)
