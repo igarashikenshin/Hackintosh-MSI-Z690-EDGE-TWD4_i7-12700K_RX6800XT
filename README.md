@@ -33,11 +33,14 @@
 1. OpenCore版本：0.7.9 (02-09)
 1. CPU变频：正常。
 ![geekbench](https://s2.loli.net/2022/02/18/ifWjIJGYvytFc2E.png)
+![cinebench](https://s2.loli.net/2022/02/18/WRZs5MdIJoFG7tC.png)
 1. UHD770：无法驱动，BIOS屏蔽处理。
 1. RX6800XT：正常，原生驱动。
 
 ![Graphics Card](https://s2.loli.net/2022/02/09/AdihloJsO9jZcEG.png)
-[]()
+![luxmark](https://s2.loli.net/2022/02/18/vdsSNVOt5W8mRkx.png)
+![gb opencl](https://s2.loli.net/2022/02/18/gPIfT7xne2MQS3A.png)
+![gb metal](https://s2.loli.net/2022/02/18/CnhVTR78p3jFfx4.png)
 
 1. 3.5mm声音 & HDMI：均正常使用，使用AppleALC驱动。
 1. USB：正常。
