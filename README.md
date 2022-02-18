@@ -30,7 +30,7 @@
 
 **可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 12.3 beta1**
 
-1. OpenCore版本：0.7.9 (02-09)
+1. OpenCore版本：0.7.9 (02-18)
 1. CPU变频：正常。
 ![geekbench](https://s2.loli.net/2022/02/18/ifWjIJGYvytFc2E.png)
 ![cinebench](https://s2.loli.net/2022/02/18/WRZs5MdIJoFG7tC.png)
