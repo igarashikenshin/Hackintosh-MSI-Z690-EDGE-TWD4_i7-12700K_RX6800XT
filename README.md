@@ -33,7 +33,7 @@
 1. OpenCore版本：0.7.9 (02-18)
 1. CPU变频：正常。
 ![geekbench](https://s2.loli.net/2022/02/18/ifWjIJGYvytFc2E.png)
-![cinebench](https://s2.loli.net/2022/03/07/LgMcdm5XnHBjOwz.png)
+![cinebench](https://s2.loli.net/2022/03/07/glSNVRsxG8w9aEc.png)
 1. UHD770：无法驱动，BIOS屏蔽处理。
 1. RX6800XT：正常，原生驱动。
 
