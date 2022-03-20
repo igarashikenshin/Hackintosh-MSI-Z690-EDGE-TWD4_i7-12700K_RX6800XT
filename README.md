@@ -3,12 +3,12 @@
 ## *交流QQ群：1071120659*
 
 
-![System Info](https://s2.loli.net/2022/02/11/NE8vqsDHxrnzWhV.png)
+![System Info](https://s2.loli.net/2022/03/20/ARni1MVuEoezbls.png)
 
 
 ### 配置
 1. 主板: MSI MPG Z690 EDGE TI WIFI DDR4
-1. BIOS版本：7D31vA1
+1. BIOS版本：7D31vA2
 1. CPU: Intel® Core™ i7-12700K 12-Core Processor
 1. 核显: Intel® UHD Graphics 770
 1. 独显: Yeston Radeon RX 6800 XT SAKURA Edition
@@ -28,26 +28,26 @@
 6. Overclocking\CPU 特征：Intel VT-D技术-允许；CFG锁定-禁止
 
 
-**可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 12.3 beta1**
+**可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 12.3**
 
-1. OpenCore版本：0.7.9 (02-18)
+1. OpenCore版本：0.8.0 (03-20)
 1. CPU变频：正常。
-![geekbench](https://s2.loli.net/2022/02/18/ifWjIJGYvytFc2E.png)
-![cinebench](https://s2.loli.net/2022/03/07/glSNVRsxG8w9aEc.png)
+![geekbench](https://s2.loli.net/2022/03/20/UCiBQsJfRoYHI17.png)
+![cinebench](https://s2.loli.net/2022/03/20/nqaQdlbANeG46it.png)
 1. UHD770：无法驱动，BIOS屏蔽处理。
-1. RX6800XT：正常，原生驱动。
+1. RX6800XT：正常，原生驱动。(从12.3开始仿冒为W6800X，避免性能损失)
 
-![Graphics Card](https://s2.loli.net/2022/02/09/AdihloJsO9jZcEG.png)
-![luxmark](https://s2.loli.net/2022/02/18/vdsSNVOt5W8mRkx.png)
-![gb opencl](https://s2.loli.net/2022/02/18/gPIfT7xne2MQS3A.png)
-![gb metal](https://s2.loli.net/2022/02/18/CnhVTR78p3jFfx4.png)
+![Graphics Card](https://s2.loli.net/2022/03/20/Q5m4thrpBPlNHfe.png)
+![luxmark](https://s2.loli.net/2022/03/20/h8L91X4GPCaxjgU.png)
+![gb opencl](https://s2.loli.net/2022/03/20/jf95GNRuSpOW2I7.png)
+![gb metal](https://s2.loli.net/2022/03/20/JVisRnw5YmGIAL6.png)
 
 1. 3.5mm声音 & HDMI：均正常使用，使用AppleALC驱动。
 1. USB：正常。
 1. 有线网卡：正常。
 1. 睡眠唤醒：正常。
 
-![Power Saver](https://s2.loli.net/2022/02/09/f5PQ6731X2ukqIU.png)
+![Power Saver](https://s2.loli.net/2022/03/20/WI1EfQ9Ha46MkBw.png)
 
 1. 关机开机：正常。
 1. iCloud & App Store & iMessage & FaceTime：请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM。
@@ -68,7 +68,6 @@
 
 ### 目前已知问题：
 
-1. 无法远程VNC连接此机器（12.2版本存在该问题，12.2.1版本已经可用）
 1. RX6000系显卡调用策略有问题，无论是否通过weg驱动，利用率都表现很差（如果有好的解决方案，请通过issue提交给我，谢谢！）
 
 ![Boot Camp](https://s2.loli.net/2022/02/09/2pdDMUnsmHl5J4B.png)
