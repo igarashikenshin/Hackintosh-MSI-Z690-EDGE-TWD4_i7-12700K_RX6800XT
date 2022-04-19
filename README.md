@@ -44,7 +44,7 @@
 
 1. 3.5mm声音 & HDMI：均正常使用，使用AppleALC驱动。
 1. USB：正常。
-1. 有线网卡：正常。
+1. 有线网卡：理论正常（未测试）。
 1. 睡眠唤醒：正常。
 
 ![Power Saver](https://s2.loli.net/2022/03/20/WI1EfQ9Ha46MkBw.png)
