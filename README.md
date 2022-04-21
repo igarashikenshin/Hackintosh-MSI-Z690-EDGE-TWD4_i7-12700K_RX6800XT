@@ -47,7 +47,7 @@
 1. 有线网卡：理论正常（未测试）。
 1. 睡眠唤醒：正常。
 
-![Power Saver](https://s2.loli.net/2022/03/20/WI1EfQ9Ha46MkBw.png)
+![Power Saver](https://s2.loli.net/2022/02/09/f5PQ6731X2ukqIU.png)
 
 1. 关机开机：正常。
 1. iCloud & App Store & iMessage & FaceTime：请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM。
