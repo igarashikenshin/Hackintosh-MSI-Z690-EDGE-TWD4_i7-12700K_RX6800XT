@@ -35,7 +35,7 @@
 ![geekbench](https://s2.loli.net/2022/03/20/UCiBQsJfRoYHI17.png)
 ![cinebench](https://s2.loli.net/2022/03/07/glSNVRsxG8w9aEc.png)
 1. UHD770：无法驱动，BIOS屏蔽处理。
-1. RX6800XT：正常，原生驱动。(从12.3开始仿冒为W6800X，避免性能损失)
+1. RX6800XT：正常，原生驱动。
 
 ![Graphics Card](https://s2.loli.net/2022/02/09/AdihloJsO9jZcEG.png)
 ![luxmark](https://s2.loli.net/2022/03/20/h8L91X4GPCaxjgU.png)
