@@ -28,16 +28,16 @@
 6. Overclocking\CPU 特征：Intel VT-D技术-允许；CFG锁定-禁止
 
 
-**可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 12.3**
+**可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 12.4 Beta2**
 
-1. OpenCore版本：0.8.0 (03-20)
+1. OpenCore版本：0.8.1 (04-19)
 1. CPU变频：正常。
 ![geekbench](https://s2.loli.net/2022/03/20/UCiBQsJfRoYHI17.png)
-![cinebench](https://s2.loli.net/2022/03/20/nqaQdlbANeG46it.png)
+![cinebench](https://s2.loli.net/2022/03/07/glSNVRsxG8w9aEc.png)
 1. UHD770：无法驱动，BIOS屏蔽处理。
 1. RX6800XT：正常，原生驱动。(从12.3开始仿冒为W6800X，避免性能损失)
 
-![Graphics Card](https://s2.loli.net/2022/03/20/Q5m4thrpBPlNHfe.png)
+![Graphics Card](https://s2.loli.net/2022/02/09/AdihloJsO9jZcEG.png)
 ![luxmark](https://s2.loli.net/2022/03/20/h8L91X4GPCaxjgU.png)
 ![gb opencl](https://s2.loli.net/2022/03/20/jf95GNRuSpOW2I7.png)
 ![gb metal](https://s2.loli.net/2022/03/20/JVisRnw5YmGIAL6.png)
