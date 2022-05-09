@@ -13,7 +13,7 @@
 1. 核显: Intel® UHD Graphics 770
 1. 独显: Yeston Radeon RX 6800 XT SAKURA Edition
 1. 板载网卡: Intel® I225V 2.5Gbps LAN controller
-1. 内置 WiFi/蓝牙: Intel® Wi-Fi 6E AX210
+1. 内置 WiFi/蓝牙: Intel® Wi-Fi 6 AX201
 1. 外置 WiFi/蓝牙: BCM943602CS（BT4.2）
 1. 前置面板声卡：Realtek® ALC897 Codec
 1. 后置面板声卡：Realtek® ALC4080 Codec
