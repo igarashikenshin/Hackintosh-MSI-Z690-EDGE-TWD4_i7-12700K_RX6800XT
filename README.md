@@ -13,7 +13,7 @@
 1. 核显: Intel® UHD Graphics 770
 1. 独显: Yeston Radeon RX 6800 XT SAKURA Edition
 1. 板载网卡: Intel® I225V 2.5Gbps LAN controller
-1. 内置 WiFi/蓝牙: Intel® Wi-Fi 6E AX210
+1. 内置 WiFi/蓝牙: Intel® Wi-Fi 6 AX201
 1. 外置 WiFi/蓝牙: BCM943602CS（BT4.2）
 1. 前置面板声卡：Realtek® ALC897 Codec
 1. 后置面板声卡：Realtek® ALC4080 Codec
@@ -28,16 +28,16 @@
 6. Overclocking\CPU 特征：Intel VT-D技术-允许；CFG锁定-禁止
 
 
-**可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 12.3**
+**可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 12.4 Beta2**
 
-1. OpenCore版本：0.8.0 (03-20)
+1. OpenCore版本：0.8.1 (04-19)
 1. CPU变频：正常。
 ![geekbench](https://s2.loli.net/2022/03/20/UCiBQsJfRoYHI17.png)
-![cinebench](https://s2.loli.net/2022/03/20/nqaQdlbANeG46it.png)
+![cinebench](https://s2.loli.net/2022/03/07/glSNVRsxG8w9aEc.png)
 1. UHD770：无法驱动，BIOS屏蔽处理。
-1. RX6800XT：正常，原生驱动。(从12.3开始仿冒为W6800X，避免性能损失)
+1. RX6800XT：正常，原生驱动。
 
-![Graphics Card](https://s2.loli.net/2022/03/20/Q5m4thrpBPlNHfe.png)
+![Graphics Card](https://s2.loli.net/2022/02/09/AdihloJsO9jZcEG.png)
 ![luxmark](https://s2.loli.net/2022/03/20/h8L91X4GPCaxjgU.png)
 ![gb opencl](https://s2.loli.net/2022/03/20/jf95GNRuSpOW2I7.png)
 ![gb metal](https://s2.loli.net/2022/03/20/JVisRnw5YmGIAL6.png)
@@ -47,7 +47,7 @@
 1. 有线网卡：理论正常（未测试）。
 1. 睡眠唤醒：正常。
 
-![Power Saver](https://s2.loli.net/2022/03/20/WI1EfQ9Ha46MkBw.png)
+![Power Saver](https://s2.loli.net/2022/02/09/f5PQ6731X2ukqIU.png)
 
 1. 关机开机：正常。
 1. iCloud & App Store & iMessage & FaceTime：请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM。
