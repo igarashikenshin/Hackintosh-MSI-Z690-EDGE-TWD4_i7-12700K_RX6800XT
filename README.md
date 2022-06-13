@@ -3,12 +3,12 @@
 ## *交流QQ群：1071120659*
 
 
-![System Info](https://s2.loli.net/2022/03/20/ARni1MVuEoezbls.png)
+![System Info](https://s2.loli.net/2022/06/13/8sXzAQbw3xHnTko.png)
 
 
 ### 配置
 1. 主板: MSI MPG Z690 EDGE TI WIFI DDR4
-1. BIOS版本：7D31vA2
+1. BIOS版本：7D31vA4
 1. CPU: Intel® Core™ i7-12700K 12-Core Processor
 1. 核显: Intel® UHD Graphics 770
 1. 独显: Yeston Radeon RX 6800 XT SAKURA Edition
@@ -23,39 +23,39 @@
 1. Settings\高级\PCIe/PCI子系统设置：Re-Size BAR Support-允许
 2. Settings\高级\整合周边设备：Onboard CNVi Module Control-Disable Integrated
 3. Settings\高级\内建显示配置：集成显卡多显示器-禁止
-4. Settings\高级\Beta Runner：选择Settings\高级\NVMe SSD Self-Test，选择取消即可进入，选择SR-IOV Support-允许
-5. Settings\启动：快速开机-禁止
-6. Overclocking\CPU 特征：Intel VT-D技术-允许；CFG锁定-禁止
+4. Settings\Beta Runner：SR-IOV Support-允许
+5. Settings\启动：快速开机-禁止；Post Screen Delay-允许:
+6. Settings\安全：安全启动-禁止
+7. Overclocking\CPU 特征：CFG锁定-禁止
 
+**可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 13.0 Beta1**
 
-**可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 12.4 Beta2**
-
-1. OpenCore版本：0.8.1 (04-19)
+1. OpenCore版本：0.8.2 (06-13)
 1. CPU变频：正常。
-![geekbench](https://s2.loli.net/2022/03/20/UCiBQsJfRoYHI17.png)
-![cinebench](https://s2.loli.net/2022/03/07/glSNVRsxG8w9aEc.png)
+![geekbench](https://s2.loli.net/2022/06/13/vaGD3hfLCPKyoWj.png)
+![cinebench](https://s2.loli.net/2022/06/13/TRtelkENgL1po3w.png)
 1. UHD770：无法驱动，BIOS屏蔽处理。
 1. RX6800XT：正常，原生驱动。
 
-![Graphics Card](https://s2.loli.net/2022/02/09/AdihloJsO9jZcEG.png)
-![luxmark](https://s2.loli.net/2022/03/20/h8L91X4GPCaxjgU.png)
-![gb opencl](https://s2.loli.net/2022/03/20/jf95GNRuSpOW2I7.png)
-![gb metal](https://s2.loli.net/2022/03/20/JVisRnw5YmGIAL6.png)
+![Graphics Card](https://s2.loli.net/2022/06/13/YDcXAyGrH19uIM8.png)
+![luxmark](https://s2.loli.net/2022/06/13/LgwxrvnWoph5fG6.png)
+![gb opencl](https://s2.loli.net/2022/06/13/RTPGSE2O18n3Bf4.png)
+![gb metal](https://s2.loli.net/2022/06/13/AYNQjR6FtUkhcCH.png)
 
 1. 3.5mm声音 & HDMI：均正常使用，使用AppleALC驱动。
 1. USB：正常。
 1. 有线网卡：理论正常（未测试）。
 1. 睡眠唤醒：正常。
 
-![Power Saver](https://s2.loli.net/2022/02/09/f5PQ6731X2ukqIU.png)
+![Power Saver](https://s2.loli.net/2022/06/13/7s6Ujidx2kOuNeI.png)
 
 1. 关机开机：正常。
 1. iCloud & App Store & iMessage & FaceTime：请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM。
 1. AirDrop & HandOff & Continuity：正常。
 
-![Wi-Fi en1](https://s2.loli.net/2022/02/09/2XrCMNRca15oUYj.png)
-![BlueTooth](https://s2.loli.net/2022/02/09/PLTa14XQ53ez7S6.png)
-![Apple Watch](https://s2.loli.net/2022/02/09/qPAD1pdlZMU7hux.png)
+![Wi-Fi en1](https://s2.loli.net/2022/06/13/iOyQp4lwjPUYzb5.png)
+![BlueTooth](https://s2.loli.net/2022/06/13/X8wAmyiP2YfzMBc.png)
+![Apple Watch](https://s2.loli.net/2022/06/13/DNup3iCf1nJ49Zr.png)
 
 ### Tips：
 
@@ -71,7 +71,7 @@
 1. RX6000系显卡调用策略有问题，无论是否通过weg驱动，利用率都表现很差（如果有好的解决方案，请通过issue提交给我，谢谢！）
 
 
-![Boot Camp](https://s2.loli.net/2022/02/09/2pdDMUnsmHl5J4B.png)
+![Boot Camp](https://s2.loli.net/2022/06/13/xAI8DQGXvZyFqwS.png)
 
 ![打赏](https://s3.bmp.ovh/imgs/2022/02/518d817d09e604ab.jpg)
 
