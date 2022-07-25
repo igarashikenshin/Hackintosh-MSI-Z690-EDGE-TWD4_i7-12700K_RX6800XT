@@ -7,17 +7,17 @@
 
 
 ### 構成
-1.マザーボード：MSI MPG Z690 EDGE TI WIFI DDR4
+1. マザーボード：MSI MPG Z690 EDGE TI WIFI DDR4
 1. BIOSバージョン：7D31vA4
 1. CPU：Intel®Core™i7-12700K12コアプロセッサー
-1.コアグラフィックス：インテル®UHDグラフィックス770
-1.スタンドアロン：YestonRadeon RX 6800 XT SAKURA Edition
-1.オンボードLAN：インテル®I225V2.5GbpsLANコントローラー
-1.内蔵WiFi/Bluetooth：インテル®Wi-Fi6 AX201
-1.外部WiFi/Bluetooth：BCM943602CS（BT4.2）
-1.フロントパネルサウンドカード：Realtek®ALC897コーデック
-1.リアパネルサウンドカード：Realtek®ALC4080コーデック
-1.ソリッドステートドライブ：Western Digital SSD SN850 1TB
+1. コアグラフィックス：インテル®UHDグラフィックス770
+1. スタンドアロン：YestonRadeon RX 6800 XT SAKURA Edition
+1. オンボードLAN：インテル®I225V2.5GbpsLANコントローラー
+1. 内蔵WiFi/Bluetooth：インテル®Wi-Fi6 AX201
+1. 外部WiFi/Bluetooth：BCM943602CS（BT4.2）
+1. フロントパネルサウンドカード：Realtek®ALC897コーデック
+1. リアパネルサウンドカード：Realtek®ALC4080コーデック
+1. ソリッドステートドライブ：Western Digital SSD SN850 1TB
 
 ### BIOS設定
 1. Settings\Advanced\PCIe/PCI Subsystem Settings: Re-Size BAR Support-Enable
@@ -44,12 +44,12 @@
 
 1. 3.5mmサウンドとHDMI：どちらも正常、AppleALCドライバーを使用して使用されます。
 1. USB：正常。
-1.有線ネットワークカード：理論的には正常です（テストされていません）。
-1.睡眠：正常。
+1. 有線ネットワークカード：理論的には正常です（テストされていません）。
+1. 睡眠：正常。
 
 ![Power Saver](https://s2.loli.net/2022/06/13/7s6Ujidx2kOuNeI.png)
 
-1.電源のオフとオン：正常。
+1. 電源のオフとオン：正常。
 1. iCloud＆App Store＆iMessage＆FaceTime：ボードのシリアル番号、シリアル番号、SmUUIDを自分で生成し、SysPrameterシステムパラメーターの「カスタムUUID」と、それに応じてRtVariables変数設定のMLBとROMを変更してください。
 1. AirDrop＆HandOff＆Continuity：正常。
 
@@ -59,12 +59,12 @@
 
 ### チップ：
 
-1.モデルをMACRPO7.1に設定する必要があります（すでにプリセットされています。インストールが完了したら変更してください）。
-1.構成のデフォルトは冗長モードなしです。詳細モードを有効にするには、config.plistで次のモードを変更する必要があります：NVRAM-Add-7C436110-AB2A-4BBB-A880-FE41995C9F82-boot-args、add-v。
-1.構成起動ディスクポリシーのScanPolicy値が0に設定されます。起動可能なWindowsまたはその他のOS（Linux、Unix）検索パーティションの種類を指定するには、OC構成マニュアルを参照してください。
-1.この設定では、デフォルトではOCPickerメニューは表示されません。メニュー表示を有効にするには、次のように設定します。Misc-Boot-ShowPickerがtrue（plistエディターでYES）。
+1. モデルをMACRPO7.1に設定する必要があります（すでにプリセットされています。インストールが完了したら変更してください）。
+1. 構成のデフォルトは冗長モードなしです。詳細モードを有効にするには、config.plistで次のモードを変更する必要があります：NVRAM-Add-7C436110-AB2A-4BBB-A880-FE41995C9F82-boot-args、add-v。
+1. 構成起動ディスクポリシーのScanPolicy値が0に設定されます。起動可能なWindowsまたはその他のOS（Linux、Unix）検索パーティションの種類を指定するには、OC構成マニュアルを参照してください。
+1. この設定では、デフォルトではOCPickerメニューは表示されません。メニュー表示を有効にするには、次のように設定します。Misc-Boot-ShowPickerがtrue（plistエディターでYES）。
 1. UTBMap.kextは、マザーボードの配線に応じてカスタマイズされています。USB関連のエラーがある場合は、UTBMapを自分でカスタマイズするか、kextの読み込みをキャンセルして、XhciPortLimit値をtrueに変更できます。
-1.内蔵のWIFI/BTモジュールはAirportItlwm.kext、IntelBluetoothFirmware.kext、IntelBluetoothInjector.kextですでに駆動でき、インターネットアクセスとリレー機能を実現できますが、エアドロップできないため、BIOSでシールドしました。外部（PCI-E転送）WIFI/BTモジュールを使用しました。組み込みのWIFI/BTモジュールを使用する場合は、次のリンク（[IntelBluetoothFirmware]（https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases）、[AirportItlwm]（https：// github.com/OpenIntelWireless / itlwm / releases））、使用するためにOCドライバーにロードされます。
+1. 内蔵のWIFI/BTモジュールはAirportItlwm.kext、IntelBluetoothFirmware.kext、IntelBluetoothInjector.kextですでに駆動でき、インターネットアクセスとリレー機能を実現できますが、エアドロップできないため、BIOSでシールドしました。外部（PCI-E転送）WIFI/BTモジュールを使用しました。組み込みのWIFI/BTモジュールを使用する場合は、次のリンク（[IntelBluetoothFirmware]（https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases）、[AirportItlwm]（https：// github.com/OpenIntelWireless / itlwm / releases））、使用するためにOCドライバーにロードされます。
 
 ### 現在知られている問題：
 
