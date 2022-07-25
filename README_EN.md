@@ -1,77 +1,79 @@
 # *Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT*
 
-## *交流QQ群：1071120659*
+
+![System Info](https://s2.loli.net/2022/07/25/hD79bWJiNMklTj4.png)
 
 
-![System Info](https://s2.loli.net/2022/06/13/8sXzAQbw3xHnTko.png)
-
-
-### 配置
-1. 主板: MSI MPG Z690 EDGE TI WIFI DDR4
-1. BIOS版本：7D31vA4
+### Configuration
+1. Motherboard: MSI MPG Z690 EDGE TI WIFI DDR4
+1. BIOS version: 7D31vA4
 1. CPU: Intel® Core™ i7-12700K 12-Core Processor
-1. 核显: Intel® UHD Graphics 770
-1. 独显: Yeston Radeon RX 6800 XT SAKURA Edition
-1. 板载网卡: Intel® I225V 2.5Gbps LAN controller
-1. 内置 WiFi/蓝牙: Intel® Wi-Fi 6 AX201
-1. 外置 WiFi/蓝牙: BCM943602CS（BT4.2）
-1. 前置面板声卡：Realtek® ALC897 Codec
-1. 后置面板声卡：Realtek® ALC4080 Codec
-1. 固态硬盘: Western Digital SSD SN850 1TB
+1. Core Graphics: Intel® UHD Graphics 770
+1. Standalone: ​​Yeston Radeon RX 6800 XT SAKURA Edition
+1. Onboard LAN: Intel® I225V 2.5Gbps LAN controller
+1. Built-in WiFi/Bluetooth: Intel® Wi-Fi 6 AX201
+1. External WiFi/Bluetooth: BCM943602CS (BT4.2)
+1. Front panel sound card: Realtek® ALC897 Codec
+1. Rear panel sound card: Realtek® ALC4080 Codec
+1. Solid State Drive: Western Digital SSD SN850 1TB
 
-### BIOS设置
-1. Settings\高级\PCIe/PCI子系统设置：Re-Size BAR Support-允许
-2. Settings\高级\整合周边设备：Onboard CNVi Module Control-Disable Integrated
-3. Settings\高级\内建显示配置：集成显卡多显示器-禁止
-4. Settings\Beta Runner：SR-IOV Support-允许
-5. Settings\启动：快速开机-禁止；Post Screen Delay-允许:
-6. Settings\安全：安全启动-禁止
-7. Overclocking\CPU 特征：CFG锁定-禁止
+### BIOS settings
+1. Settings\Advanced\PCIe/PCI Subsystem Settings: Re-Size BAR Support-Enable
+2. Settings\Advanced\Integrated Peripherals: Onboard CNVi Module Control-Disable Integrated
+3. Settings\Advanced\Integrated Graphics Configuration: Integrated Graphics Multi-Monitor - Disabled
+4. Settings\Beta Runner: SR-IOV Support-Enable
+5. Settings\Startup: Fast Boot-Disable; Post Screen Delay-Enable:
+6. Settings\Security: Secure Boot - Disable
+7. Overclocking\CPU Feature: CFG Lock-Disabled
 
-**可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 13.0 Beta1**
+**Applicable OS version: macOS Catalina 12.1～macOS Monterey 13.0 Beta3**
 
-1. OpenCore版本：0.8.2 (06-13)
-1. CPU变频：正常。
+1. OpenCore version: 0.8.3 (07-24)
+1. CPU frequency conversion: Work.
 ![geekbench](https://s2.loli.net/2022/06/13/vaGD3hfLCPKyoWj.png)
 ![cinebench](https://s2.loli.net/2022/06/13/TRtelkENgL1po3w.png)
-1. UHD770：无法驱动，BIOS屏蔽处理。
-1. RX6800XT：正常，原生驱动。
+1. UHD770: Unable to drive, BIOS shield processing.
+1. RX6800XT: Work, native driver.
 
-![Graphics Card](https://s2.loli.net/2022/06/13/YDcXAyGrH19uIM8.png)
+![Graphics Card](https://s2.loli.net/2022/07/25/IQXPB19CTHoJmcu.png)
 ![luxmark](https://s2.loli.net/2022/06/13/LgwxrvnWoph5fG6.png)
 ![gb opencl](https://s2.loli.net/2022/06/13/RTPGSE2O18n3Bf4.png)
 ![gb metal](https://s2.loli.net/2022/06/13/AYNQjR6FtUkhcCH.png)
 
-1. 3.5mm声音 & HDMI：均正常使用，使用AppleALC驱动。
-1. USB：正常。
-1. 有线网卡：理论正常（未测试）。
-1. 睡眠唤醒：正常。
+1. 3.5mm sound & HDMI: Work, using AppleALC driver.
+1. USB: Work.
+1. Wired network card: theoretically Work (not tested).
+1. Sleep & Wake up: Work.
 
 ![Power Saver](https://s2.loli.net/2022/06/13/7s6Ujidx2kOuNeI.png)
 
-1. 关机开机：正常。
-1. iCloud & App Store & iMessage & FaceTime：请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM。
-1. AirDrop & HandOff & Continuity：正常。
+1. Power off and on: Work.
+1. iCloud & App Store & iMessage & FaceTime: Please generate the Board Serial Number, Serial Number, SmUUID by yourself, and modify the "Custom UUID" in the SysPrameter system parameters, and the MLB and ROM in the RtVariables variable settings accordingly.
+1. AirDrop & HandOff & Continuity: Work.
+
 
 ![Wi-Fi en1](https://s2.loli.net/2022/06/13/iOyQp4lwjPUYzb5.png)
 ![BlueTooth](https://s2.loli.net/2022/06/13/X8wAmyiP2YfzMBc.png)
 ![Apple Watch](https://s2.loli.net/2022/06/13/DNup3iCf1nJ49Zr.png)
 
-### Tips：
+### Tips:
 
-1. 机型需设定为MAC RPO 7.1（现已预置，安装完成后请自行修改）。
-1. 该config默认为无verbose模式。如需启用verbose模式，config.plist需要修改以下一项：NVRAM-Add-7C436110-AB2A-4BBB-A880-FE41995C9F82-boot-args，添加-v。
-1. 该config启动盘策略 ScanPolicy 值设置为0。可引导Windows或Other OS（Linux、Unix）如需指定搜索分区类型，可参考OC配置手册。
-1. 该config默认为不显示OC Picker菜单。如需开启菜单显示，设置如下：Misc-Boot-ShowPicker 值为true（plist编辑器中为YES）。
-1. UTBMap.kext 为我根据主板接线定制，若你出现usb相关错误，可自行定制UTBMap，或取消加载该kext，将XhciPortLimit值变更为true。
-1. 虽然内置WIFI/BT模块已经可以通过AirportItlwm.kext、IntelBluetoothFirmware.kext、IntelBluetoothInjector.kext进行驱动并实现上网、接力功能，但因无法隔空投送，故我在BIOS中进行了屏蔽，使用了外置（PCI-E 转接）WIFI/BT模块。如果你想要用内置WIFI/BT模块，可以在以下链接下载kext（[IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases)、[AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases)），载入到OC中驱动使用。
+1. The model needs to be set to MAC RPO 7.1 (it is already preset, please modify it after the installation is complete).
+1. The config defaults to no verbose mode. To enable verbose mode, config.plist needs to modify the following one: NVRAM-Add-7C436110-AB2A-4BBB-A880-FE41995C9F82-boot-args, add -v.
+1. The config startup disk policy ScanPolicy value is set to 0. Bootable Windows or Other OS (Linux, Unix) To specify the search partition type, please refer to the OC configuration manual.
+1. This config does not display the OC Picker menu by default. To enable menu display, set as follows: Misc-Boot-ShowPicker is true (YES in plist editor).
+1. UTBMap.kext is customized for me according to the motherboard wiring. If you have usb-related errors, you can customize UTBMap by yourself, or cancel the loading of the kext, and change the XhciPortLimit value to true.
+1. Although the built-in WIFI/BT module can already be driven by AirportItlwm.kext, IntelBluetoothFirmware.kext, IntelBluetoothInjector.kext to realize Internet access and relay functions, but because it cannot be air-dropped, I shielded it in the BIOS and used an external (PCI-E transfer) WIFI/BT module. If you want to use the built-in WIFI/BT module, you can download kext from the following links ([IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases), [AirportItlwm](https://github.com/OpenIntelWireless /itlwm/releases)), loaded into the OC driver for use.
 
-### 目前已知问题：
+### Currently known issues:
 
-1. RX6000系显卡调用策略有问题，无论是否通过weg驱动，利用率都表现很差（如果有好的解决方案，请通过issue提交给我，谢谢！）
+1. There is a problem with the calling strategy of the RX6000 series graphics card. Whether it is driven by weg or not, the utilization rate is very poor (if there is a good solution, please submit it to me through issue, thank you!)
+1. The Apple Watch unlocking function cannot be unlocked in Ventura beta3 (myself example cannot represent all).
 
 
 ![Boot Camp](https://s2.loli.net/2022/06/13/xAI8DQGXvZyFqwS.png)
 
-![打赏](https://s3.bmp.ovh/imgs/2022/02/518d817d09e604ab.jpg)
+**Donate:**[https://paypal.me/kenshinJP](https://paypal.me/kenshinJP)
 
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/kenshinJP)
