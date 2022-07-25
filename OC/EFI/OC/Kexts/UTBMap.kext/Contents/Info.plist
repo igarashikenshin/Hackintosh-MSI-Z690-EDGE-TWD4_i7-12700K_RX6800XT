@@ -41,7 +41,7 @@
 			<dict>
 				<key>port-count</key>
 				<data>
-				AgAAAA==
+				AwAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
@@ -54,13 +54,22 @@
 						AQAAAA==
 						</data>
 					</dict>
+					<key>HS02</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>
+						AgAAAA==
+						</data>
+					</dict>
 					<key>SS01</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
 						<data>
-						AgAAAA==
+						AwAAAA==
 						</data>
 					</dict>
 				</dict>
