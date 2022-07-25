@@ -28,7 +28,7 @@
 6. Settings\Security: Secure Boot - Disable
 7. Overclocking\CPU Feature: CFG Lock-Disabled
 
-**Applicable OS version: macOS Catalina 12.1～macOS Monterey 13.0 Beta3**
+**該当するOSバージョン：macOS Catalina 12.1〜macOS Monterey 13.0 Beta3 **
 
 1. OpenCoreバージョン：0.8.3（07-24）
 1. CPU周波数変換：正常。
