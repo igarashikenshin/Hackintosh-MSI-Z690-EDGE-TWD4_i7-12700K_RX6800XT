@@ -9,14 +9,14 @@
 ### 構成
 1. マザーボード：MSI MPG Z690 EDGE TI WIFI DDR4
 1. BIOSバージョン：7D31vA4
-1. CPU：Intel®Core™i7-12700K12コアプロセッサー
-1. コアグラフィックス：インテル®UHDグラフィックス770
+1. CPU：Intel® Core™ i7-12700K 12-Core Processor
+1. コアグラフィックス：Intel® UHD Graphics 770
 1. スタンドアロン：YestonRadeon RX 6800 XT SAKURA Edition
-1. オンボードLAN：インテル®I225V2.5GbpsLANコントローラー
-1. 内蔵WiFi/Bluetooth：インテル®Wi-Fi6 AX201
+1. オンボードLAN：Intel® I225V 2.5Gbps LAN controlle
+1. 内蔵WiFi/Bluetooth：Intel® Wi-Fi 6 AX201
 1. 外部WiFi/Bluetooth：BCM943602CS（BT4.2）
-1. フロントパネルサウンドカード：Realtek®ALC897コーデック
-1. リアパネルサウンドカード：Realtek®ALC4080コーデック
+1. フロントパネルサウンドカード：Realtek® ALC897 Codec
+1. リアパネルサウンドカード：Realtek® ALC4080 Codec
 1. ソリッドステートドライブ：Western Digital SSD SN850 1TB
 
 ### BIOS設定
@@ -64,7 +64,7 @@
 1. 構成起動ディスクポリシーのScanPolicy値が0に設定されます。起動可能なWindowsまたはその他のOS（Linux、Unix）検索パーティションの種類を指定するには、OC構成マニュアルを参照してください。
 1. この設定では、デフォルトではOCPickerメニューは表示されません。メニュー表示を有効にするには、次のように設定します。Misc-Boot-ShowPickerがtrue（plistエディターでYES）。
 1. UTBMap.kextは、マザーボードの配線に応じてカスタマイズされています。USB関連のエラーがある場合は、UTBMapを自分でカスタマイズするか、kextの読み込みをキャンセルして、XhciPortLimit値をtrueに変更できます。
-1. 内蔵のWIFI/BTモジュールはAirportItlwm.kext、IntelBluetoothFirmware.kext、IntelBluetoothInjector.kextですでに駆動でき、インターネットアクセスとリレー機能を実現できますが、エアドロップできないため、BIOSでシールドしました。外部（PCI-E転送）WIFI/BTモジュールを使用しました。組み込みのWIFI/BTモジュールを使用する場合は、次のリンク（[IntelBluetoothFirmware]（https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases）、[AirportItlwm]（https：// github.com/OpenIntelWireless / itlwm / releases））、使用するためにOCドライバーにロードされます。
+1. 内蔵のWIFI/BTモジュールはAirportItlwm.kext、IntelBluetoothFirmware.kext、IntelBluetoothInjector.kextですでに駆動でき、インターネットアクセスとリレー機能を実現できますが、エアドロップできないため、BIOSでシールドしました。外部（PCI-E転送）WIFI/BTモジュールを使用しました。組み込みのWIFI/BTモジュールを使用する場合は、次のリンク（[IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases)、[AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases)）、使用するためにOpencoreドライバーにロードされます。
 
 ### 現在知られている問題：
 
