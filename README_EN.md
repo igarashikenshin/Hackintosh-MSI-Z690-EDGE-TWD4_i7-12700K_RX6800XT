@@ -1,5 +1,7 @@
 # *Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT*
 
+[中文](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT/blob/main/README.md)｜[日本語](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT/blob/main/README_JP.md)
+｜[English](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT/blob/main/README_EN.md)
 
 ![System Info](https://s2.loli.net/2022/07/25/hD79bWJiNMklTj4.png)
 
