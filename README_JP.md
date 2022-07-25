@@ -3,7 +3,7 @@
 ## *交流QQ群：1071120659*
 
 
-![System Info](https://s2.loli.net/2022/07/25/hD79bWJiNMklTj4.png)
+![System Info](https://s2.loli.net/2022/06/13/8sXzAQbw3xHnTko.png)
 
 
 ### 配置
@@ -28,16 +28,16 @@
 6. Settings\安全：安全启动-禁止
 7. Overclocking\CPU 特征：CFG锁定-禁止
 
-**可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 13.0 Beta3**
+**可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 13.0 Beta1**
 
-1. OpenCore版本：0.8.3 (07-24)
+1. OpenCore版本：0.8.2 (06-13)
 1. CPU变频：正常。
 ![geekbench](https://s2.loli.net/2022/06/13/vaGD3hfLCPKyoWj.png)
 ![cinebench](https://s2.loli.net/2022/06/13/TRtelkENgL1po3w.png)
 1. UHD770：无法驱动，BIOS屏蔽处理。
 1. RX6800XT：正常，原生驱动。
 
-![Graphics Card](https://s2.loli.net/2022/07/25/IQXPB19CTHoJmcu.png)
+![Graphics Card](https://s2.loli.net/2022/06/13/YDcXAyGrH19uIM8.png)
 ![luxmark](https://s2.loli.net/2022/06/13/LgwxrvnWoph5fG6.png)
 ![gb opencl](https://s2.loli.net/2022/06/13/RTPGSE2O18n3Bf4.png)
 ![gb metal](https://s2.loli.net/2022/06/13/AYNQjR6FtUkhcCH.png)
@@ -69,7 +69,7 @@
 ### 目前已知问题：
 
 1. RX6000系显卡调用策略有问题，无论是否通过weg驱动，利用率都表现很差（如果有好的解决方案，请通过issue提交给我，谢谢！）
-1. Apple Watch 解锁功能在Ventura beta3中无法解锁（自身个例不能代表全部）。
+
 
 ![Boot Camp](https://s2.loli.net/2022/06/13/xAI8DQGXvZyFqwS.png)
 
