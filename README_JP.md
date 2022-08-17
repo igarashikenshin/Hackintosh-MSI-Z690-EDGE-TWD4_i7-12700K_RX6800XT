@@ -8,7 +8,7 @@
 
 ### 構成
 1. マザーボード：MSI MPG Z690 EDGE TI WIFI DDR4
-1. BIOSバージョン：7D31vA4
+1. BIOSバージョン：7D31vA7
 1. CPU：Intel® Core™ i7-12700K 12-Core Processor
 1. コアグラフィックス：Intel® UHD Graphics 770
 1. スタンドアロン：YestonRadeon RX 6800 XT SAKURA Edition
@@ -28,9 +28,9 @@
 6. Settings\Security: Secure Boot - Disable
 7. Overclocking\CPU Feature: CFG Lock-Disabled
 
-**該当するOSバージョン：macOS Catalina 12.1〜macOS Monterey 13.0 Beta3 **
+**該当するOSバージョン：macOS Catalina 12.1〜macOS Monterey 13.0 Beta5 **
 
-1. OpenCoreバージョン：0.8.3（07-24）
+1. OpenCoreバージョン：0.8.4 (08-17)
 1. CPU周波数変換：正常。
 ![geekbench](https://s2.loli.net/2022/06/13/vaGD3hfLCPKyoWj.png)
 ![cinebench](https://s2.loli.net/2022/06/13/TRtelkENgL1po3w.png)

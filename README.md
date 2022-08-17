@@ -9,7 +9,7 @@
 
 ### 配置
 1. 主板: MSI MPG Z690 EDGE TI WIFI DDR4
-1. BIOS版本：7D31vA4
+1. BIOS版本：7D31vA7
 1. CPU: Intel® Core™ i7-12700K 12-Core Processor
 1. 核显: Intel® UHD Graphics 770
 1. 独显: Yeston Radeon RX 6800 XT SAKURA Edition
@@ -29,9 +29,9 @@
 6. Settings\安全：安全启动-禁止
 7. Overclocking\CPU 特征：CFG锁定-禁止
 
-**可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 13.0 Beta3**
+**可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 13.0 Beta5**
 
-1. OpenCore版本：0.8.3 (07-24)
+1. OpenCore版本：0.8.4 (08-17)
 1. CPU变频：正常。
 ![geekbench](https://s2.loli.net/2022/06/13/vaGD3hfLCPKyoWj.png)
 ![cinebench](https://s2.loli.net/2022/06/13/TRtelkENgL1po3w.png)
