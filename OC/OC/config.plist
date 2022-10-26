@@ -26,6 +26,14 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
+                    <false/>
+                    <key>Path</key>
+                    <string>SSDT-W6800X.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
                     <true/>
                     <key>Path</key>
                     <string>SSDT-USBX.aml</string>
@@ -196,7 +204,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.5</string>
+                    <string>V1.7.6</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -390,7 +398,7 @@
                 <key>ProvideCurrentCpuInfo</key>
                 <true/>
                 <key>SetApfsTrimTimeout</key>
-                <integer>-1</integer>
+                <integer>0</integer>
                 <key>ThirdPartyDrives</key>
                 <false/>
                 <key>XhciPortLimit</key>
@@ -537,7 +545,7 @@
                     <key>revcpu</key>
                     <integer>1</integer>
                     <key>revcpuname</key>
-                    <string>十二核Intel Core i7</string>
+                    <string>十二核 Intel i7</string>
                 </dict>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
@@ -580,11 +588,11 @@
                 <key>AdviseFeatures</key>
                 <true/>
                 <key>MLB</key>
-                <string>F5K037303J9K3F71F</string>
+                <string>F5K109270CDK3F7AD</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
-                <integer>3842</integer>
+                <integer>3841</integer>
                 <key>ROM</key>
                 <data>1VFY2UYj</data>
                 <key>SpoofVendor</key>
@@ -594,9 +602,9 @@
                 <key>SystemProductName</key>
                 <string>MacPro7,1</string>
                 <key>SystemSerialNumber</key>
-                <string>F5KDDYYLP7QM</string>
+                <string>F5KFC0HLP7QM</string>
                 <key>SystemUUID</key>
-                <string>DA16CA7A-392C-4E37-A4F8-4E96D1B74152</string>
+                <string>025B0365-0E37-4AA9-8920-FFC8C8AC8204</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -638,6 +646,12 @@
                 <integer>0</integer>
                 <key>KeySubsequentDelay</key>
                 <integer>5</integer>
+                <key>PointerDwellClickTimeout</key>
+                <integer>0</integer>
+                <key>PointerDwellDoubleClickTimeout</key>
+                <integer>0</integer>
+                <key>PointerDwellRadius</key>
+                <integer>0</integer>
                 <key>PointerPollMask</key>
                 <integer>-1</integer>
                 <key>PointerPollMax</key>
@@ -775,7 +789,7 @@
                 <key>TextRenderer</key>
                 <string>BuiltinGraphics</string>
                 <key>UIScale</key>
-                <integer>1</integer>
+                <integer>-1</integer>
                 <key>UgaPassThrough</key>
                 <false/>
             </dict>
