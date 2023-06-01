@@ -4,12 +4,12 @@
 
 [中文](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT/blob/main/README.md)｜[日本語](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT/blob/main/README_JP.md)
 ｜[English](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT/blob/main/README_EN.md)
-![System Info](https://s2.loli.net/2022/07/25/hD79bWJiNMklTj4.png)
+![System Info](https://s2.loli.net/2023/06/01/HO9ahmj4GQVU3eN.png)
 
 
 ### 配置
 1. 主板: MSI MPG Z690 EDGE TI WIFI DDR4
-1. BIOS版本：7D31vA7
+1. BIOS版本：7D31vAB
 1. CPU: Intel® Core™ i7-12700K 12-Core Processor
 1. 核显: Intel® UHD Graphics 770
 1. 独显: Yeston Radeon RX 6800 XT SAKURA Edition
@@ -31,7 +31,7 @@
 
 **可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 13.0 Beta5**
 
-1. OpenCore版本：0.8.4 (08-17)
+1. OpenCore版本：0.9.3 (06-01)
 1. CPU变频：正常。
 ![geekbench](https://s2.loli.net/2022/06/13/vaGD3hfLCPKyoWj.png)
 ![cinebench](https://s2.loli.net/2022/06/13/TRtelkENgL1po3w.png)
@@ -70,7 +70,7 @@
 ### 目前已知问题：
 
 1. RX6000系显卡调用策略有问题，无论是否通过weg驱动，利用率都表现很差（如果有好的解决方案，请通过issue提交给我，谢谢！）
-1. Apple Watch 解锁功能在Ventura beta3中无法解锁（自身个例不能代表全部）。
+
 
 ![Boot Camp](https://s2.loli.net/2022/06/13/xAI8DQGXvZyFqwS.png)
 
