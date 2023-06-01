@@ -153,22 +153,13 @@
 					<key>SS04</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						FwAAAA==
-						</data>
-					</dict>
-					<key>SS05</key>
-					<dict>
-						<key>UsbConnector</key>
 						<integer>9</integer>
 						<key>port</key>
 						<data>
 						GAAAAA==
 						</data>
 					</dict>
-					<key>SS06</key>
+					<key>SS05</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
