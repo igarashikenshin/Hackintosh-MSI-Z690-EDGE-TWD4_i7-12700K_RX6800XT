@@ -3,60 +3,62 @@
 [中文](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT/blob/main/README.md)｜[日本語](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT/blob/main/README_JP.md)
 ｜[English](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT/blob/main/README_EN.md)
 
-![System Info](https://s2.loli.net/2022/07/25/hD79bWJiNMklTj4.png)
+![System Info](https://s2.loli.net/2023/06/19/JTV5tpZiK8vXCFg.png)
 
 
 ### Configuration
 1. Motherboard: MSI MPG Z690 EDGE TI WIFI DDR4
-1. BIOS version: 7D31vA7
+1. BIOS version: 7D31vAC
 1. CPU: Intel® Core™ i7-12700K 12-Core Processor
 1. Core Graphics: Intel® UHD Graphics 770
 1. Standalone: ​​Yeston Radeon RX 6800 XT SAKURA Edition
 1. Onboard LAN: Intel® I225V 2.5Gbps LAN controller
 1. Built-in WiFi/Bluetooth: Intel® Wi-Fi 6 AX201
-1. External WiFi/Bluetooth: BCM943602CS (BT4.2)
 1. Front panel sound card: Realtek® ALC897 Codec
 1. Rear panel sound card: Realtek® ALC4080 Codec
 1. Solid State Drive: Western Digital SSD SN850 1TB
 
 ### BIOS settings
-1. Settings\Advanced\PCIe/PCI Subsystem Settings: Re-Size BAR Support-Enable
-2. Settings\Advanced\Integrated Peripherals: Onboard CNVi Module Control-Disable Integrated
-3. Settings\Advanced\Integrated Graphics Configuration: Integrated Graphics Multi-Monitor - Disabled
-4. Settings\Beta Runner: SR-IOV Support-Enable
-5. Settings\Startup: Fast Boot-Disable; Post Screen Delay-Enable:
-6. Settings\Security: Secure Boot - Disable
-7. Overclocking\CPU Feature: CFG Lock-Disabled
+1. SR-IOV Support: [Enabled]
+2. Fast Boot: [Disabled]
+3. Secure Boot: [Disabled]
+4. IGD Multi-Monitor: [Disabled]
+5. D.T.M: [Enabled]
 
-**Applicable OS version: macOS Catalina 12.1～macOS Monterey 13.0 Beta5**
 
-1. OpenCore version: 0.8.4 (08-17)
+**Applicable OS version: macOS Catalina 12.1～macOS Monterey 14.0 Beta1**
+
+1. OpenCore version: 0.9.4 (06-18)
 1. CPU frequency conversion: Work.
-![geekbench](https://s2.loli.net/2022/06/13/vaGD3hfLCPKyoWj.png)
-![cinebench](https://s2.loli.net/2022/06/13/TRtelkENgL1po3w.png)
+![geekbench6](https://s2.loli.net/2023/06/19/6Wbvf9dog5K7SwB.png)
+![cinebench](https://s2.loli.net/2023/06/19/CBetHYmy1RIanFS.png)
 1. UHD770: Unable to drive, BIOS shield processing.
 1. RX6800XT: Work, native driver.
 
-![Graphics Card](https://s2.loli.net/2022/07/25/IQXPB19CTHoJmcu.png)
-![luxmark](https://s2.loli.net/2022/06/13/LgwxrvnWoph5fG6.png)
-![gb opencl](https://s2.loli.net/2022/06/13/RTPGSE2O18n3Bf4.png)
-![gb metal](https://s2.loli.net/2022/06/13/AYNQjR6FtUkhcCH.png)
+![Graphics Card](https://s2.loli.net/2023/06/19/DYcQ9q1nNiM4PE6.png)
+![luxmark](https://s2.loli.net/2023/06/19/T2QaOfgnqC8rSsG.png)
+![gb opencl](https://s2.loli.net/2023/06/19/U1rCegOkSd4AGZJ.png)
+![gb metal](https://s2.loli.net/2023/06/19/GmXQZcosb3FxPtJ.png)
 
 1. 3.5mm sound & HDMI: Work, using AppleALC driver.
-1. USB: Work.
-1. Wired network card: theoretically Work (not tested).
-1. Sleep & Wake up: Work.
+2. USB: Work.
+3. Wired network card: Work.
+4. Wi-Fi: Use itlwm.kext to simulate a wired network card driver, which needs to be used with HeliPort.app.
+5. Wake up from sleep: normal.
 
-![Power Saver](https://s2.loli.net/2022/06/13/7s6Ujidx2kOuNeI.png)
+![Power Saver](https://s2.loli.net/2023/06/19/DlKsPrtFmwVfEqU.png)
 
 1. Power off and on: Work.
-1. iCloud & App Store & iMessage & FaceTime: Please generate the Board Serial Number, Serial Number, SmUUID by yourself, and modify the "Custom UUID" in the SysPrameter system parameters, and the MLB and ROM in the RtVariables variable settings accordingly.
-1. AirDrop & HandOff & Continuity: Work.
+2. iCloud & App Store & iMessage & FaceTime: Please generate the Board Serial Number, Serial Number, SmUUID by yourself, and modify the "Custom UUID" in the SysPrameter system parameters, and the MLB and ROM in the RtVariables variable settings accordingly.
+3. AirDrop: It simulates the driver of the wired network card,Not work.
+4. HandOff: Normal.
+5. Continuity: Not work.
+6. Apple Watch Unlock: Wi-Fi and Bluetooth must both turned,Not work.
 
 
-![Wi-Fi en1](https://s2.loli.net/2022/06/13/iOyQp4lwjPUYzb5.png)
-![BlueTooth](https://s2.loli.net/2022/06/13/X8wAmyiP2YfzMBc.png)
-![Apple Watch](https://s2.loli.net/2022/06/13/DNup3iCf1nJ49Zr.png)
+![Wi-Fi en1](https://s2.loli.net/2023/06/19/B5Gkdyuxq2aLpnN.png)
+![BlueTooth](https://s2.loli.net/2023/06/19/KDIOSrLo2sQgb9a.png)
+![Apple Watch](https://s2.loli.net/2023/06/19/wW8C5gl4HTyEGcD.png)
 
 ### Tips:
 
@@ -65,15 +67,12 @@
 1. The config startup disk policy ScanPolicy value is set to 0. Bootable Windows or Other OS (Linux, Unix) To specify the search partition type, please refer to the OC configuration manual.
 1. This config does not display the OC Picker menu by default. To enable menu display, set as follows: Misc-Boot-ShowPicker is true (YES in plist editor).
 1. UTBMap.kext is customized for me according to the motherboard wiring. If you have usb-related errors, you can customize UTBMap by yourself, or cancel the loading of the kext, and change the XhciPortLimit value to true.
-1. Although the built-in WIFI/BT module can already be driven by AirportItlwm.kext, IntelBluetoothFirmware.kext, IntelBluetoothInjector.kext to realize Internet access and relay functions, but because it cannot be air-dropped, I shielded it in the BIOS and used an external (PCI-E transfer) WIFI/BT module. If you want to use the built-in WIFI/BT module, you can download kext from the following links （[IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases)、[AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases)）, loaded into the OC driver for use.
 
 ### Currently known issues:
 
 1. There is a problem with the calling strategy of the RX6000 series graphics card. Whether it is driven by weg or not, the utilization rate is very poor (if there is a good solution, please submit it to me through issue, thank you!)
-1. The Apple Watch unlocking function cannot be unlocked in Ventura beta3 (myself example cannot represent all).
 
-
-![Boot Camp](https://s2.loli.net/2022/06/13/xAI8DQGXvZyFqwS.png)
+![Boot Camp](https://s2.loli.net/2023/06/19/UpB186T3roGHkXJ.png)
 
 **Donate:**[https://paypal.me/kenshinJP](https://paypal.me/kenshinJP)
 
