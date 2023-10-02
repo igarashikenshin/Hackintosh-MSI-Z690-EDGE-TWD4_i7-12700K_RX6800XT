@@ -11,12 +11,12 @@
 
 ### 配置
 1. 主板: MSI MPG Z690 EDGE TI WIFI DDR4
-1. BIOS版本：7D31vAC
+1. BIOS版本：7D31vAE
 1. CPU: Intel® Core™ i7-12700K 12-Core Processor
 1. 核显: Intel® UHD Graphics 770
 1. 独显: Yeston Radeon RX 6800 XT SAKURA Edition
 1. 板载网卡: Intel® I225V 2.5Gbps LAN controller
-1. 内置 WiFi/蓝牙: Intel® Wi-Fi 6 AX201
+1. 内置 WiFi/蓝牙: BCM943602CS（BT4.2）
 1. 前置面板声卡：Realtek® ALC897 Codec
 1. 后置面板声卡：Realtek® ALC4080 Codec
 1. 固态硬盘: Western Digital SSD SN850 1TB
@@ -28,9 +28,9 @@
 4. 集成显卡多显示器：禁止]
 5. D.T.M:[允许]
 
-**可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 14.0 Beta1**
+**可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 14.1 Beta1**
 
-1. OpenCore版本：0.9.4 (06-18)
+1. OpenCore版本：0.9.6 (10-02)
 1. CPU变频：正常。
 ![geekbench6](https://s2.loli.net/2023/06/19/6Wbvf9dog5K7SwB.png)
 ![cinebench](https://s2.loli.net/2023/06/19/CBetHYmy1RIanFS.png)
@@ -45,17 +45,17 @@
 1. 3.5mm声音 & HDMI：均正常使用，使用AppleALC驱动。
 2. USB：正常。
 3. 有线网卡：正常。
-4. Wi-Fi：使用itlwm.kext模拟有线网卡驱动，需要搭配HeliPort.app使用。
+4. Wi-Fi：使用OpenCore-Patcher注入驱动。
 5. 睡眠唤醒：正常。
 
 ![Power Saver](https://s2.loli.net/2023/06/19/DlKsPrtFmwVfEqU.png)
 
 1. 关机开机：正常。
 2. iCloud & App Store & iMessage & FaceTime：请自行生成Board Serial Number、序列号、SmUUID，并相应的修改SysPrameter系统参数中的“自定义UUID”，和RtVariables变量设置中的MLB、ROM。
-3. AirDrop:因模拟有线网卡的形式驱动，无法工作。
+3. AirDrop:正常。
 4. HandOff:正常。
-5. Continuity：无法工作。
-6. Apple Watch解锁：需要Wi-Fi及蓝牙同时打开才可使用（暂无法实现）。
+5. Continuity：正常。
+6. Apple Watch解锁：正常。
 
 ![Wi-Fi en5](https://s2.loli.net/2023/06/19/B5Gkdyuxq2aLpnN.png)
 ![BlueTooth](https://s2.loli.net/2023/06/19/KDIOSrLo2sQgb9a.png)

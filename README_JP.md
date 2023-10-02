@@ -8,12 +8,12 @@
 
 ### 構成
 1. マザーボード：MSI MPG Z690 EDGE TI WIFI DDR4
-1. BIOSバージョン：7D31vAC
+1. BIOSバージョン：7D31vAE
 1. CPU：Intel® Core™ i7-12700K 12-Core Processor
 1. コアグラフィックス：Intel® UHD Graphics 770
 1. スタンドアロン：YestonRadeon RX 6800 XT SAKURA Edition
 1. オンボードLAN：Intel® I225V 2.5Gbps LAN controlle
-1. 内蔵WiFi/Bluetooth：Intel® Wi-Fi 6 AX201
+1. 内蔵WiFi/Bluetooth：BCM943602CS（BT4.2）
 1. フロントパネルサウンドカード：Realtek® ALC897 Codec
 1. リアパネルサウンドカード：Realtek® ALC4080 Codec
 1. ソリッドステートドライブ：Western Digital SSD SN850 1TB
@@ -25,9 +25,9 @@
 4. IGDマルチモニタ：［無効］
 5. D.T.M: [有効]
 
-**該当するOSバージョン：macOS Catalina 12.1〜macOS Monterey 14.0 Beta1 **
+**該当するOSバージョン：macOS Catalina 12.1〜macOS Monterey 14.1 Beta1 **
 
-1. OpenCoreバージョン：0.9.4 (06-18)
+1. OpenCoreバージョン：0.9.6 (10-02)
 1. CPU周波数変換：正常。
 ![geekbench6](https://s2.loli.net/2023/06/19/6Wbvf9dog5K7SwB.png)
 ![cinebench](https://s2.loli.net/2023/06/19/CBetHYmy1RIanFS.png)
@@ -42,17 +42,17 @@
 1. 3.5mm オーディオと HDMI: AppleALC ドライバーを使用して、両方とも正常に動作します。
 2. USB: OK。
 3. 有線ネットワークカード: 正常。
-4. Wi-Fi: itlwm.kext を使用して有線ネットワーク カード ドライバーをシミュレートします。これは HeliPort.app で使用する必要があります。
+4. Wi-Fi: OpenCore-Patcher を使用して。
 5. スリープ: 正常。
 
 ![Power Saver](https://s2.loli.net/2023/06/19/DlKsPrtFmwVfEqU.png)
 
 1. 電源のオフとオン：正常。
 2. iCloud＆App Store＆iMessage＆FaceTime：ボードのシリアル番号、シリアル番号、SmUUIDを自分で生成し、SysPrameterシステムパラメーターの「カスタムUUID」と、それに応じてRtVariables変数設定のMLBとROMを変更してください。
-3. AirDrop: アナログ有線ネットワーク カードの形式で駆動されるため、機能しません。
+3. AirDrop: 正常。
 4. HandOff: 正常。
-5. Continuity: 動作しません。
-6. Apple Watch Unlock: Wi-Fi と Bluetooth を使用するには、同時にオンにする必要があります (一時的に使用できなくなります)。
+5. Continuity: 正常。
+6. Apple Watch Unlock: 正常。
 
 ![Wi-Fi en1](https://s2.loli.net/2023/06/19/B5Gkdyuxq2aLpnN.png)
 ![BlueTooth](https://s2.loli.net/2023/06/19/KDIOSrLo2sQgb9a.png)

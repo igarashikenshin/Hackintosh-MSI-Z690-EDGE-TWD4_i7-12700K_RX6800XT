@@ -8,12 +8,12 @@
 
 ### Configuration
 1. Motherboard: MSI MPG Z690 EDGE TI WIFI DDR4
-1. BIOS version: 7D31vAC
+1. BIOS version: 7D31vAE
 1. CPU: Intel® Core™ i7-12700K 12-Core Processor
 1. Core Graphics: Intel® UHD Graphics 770
 1. Standalone: ​​Yeston Radeon RX 6800 XT SAKURA Edition
 1. Onboard LAN: Intel® I225V 2.5Gbps LAN controller
-1. Built-in WiFi/Bluetooth: Intel® Wi-Fi 6 AX201
+1. Built-in WiFi/Bluetooth: BCM943602CS（BT4.2）
 1. Front panel sound card: Realtek® ALC897 Codec
 1. Rear panel sound card: Realtek® ALC4080 Codec
 1. Solid State Drive: Western Digital SSD SN850 1TB
@@ -26,9 +26,9 @@
 5. D.T.M: [Enabled]
 
 
-**Applicable OS version: macOS Catalina 12.1～macOS Monterey 14.0 Beta1**
+**Applicable OS version: macOS Catalina 12.1～macOS Monterey 14.1 Beta1**
 
-1. OpenCore version: 0.9.4 (06-18)
+1. OpenCore version: 0.9.6 (10-02)
 1. CPU frequency conversion: Work.
 ![geekbench6](https://s2.loli.net/2023/06/19/6Wbvf9dog5K7SwB.png)
 ![cinebench](https://s2.loli.net/2023/06/19/CBetHYmy1RIanFS.png)
@@ -43,17 +43,17 @@
 1. 3.5mm sound & HDMI: Work, using AppleALC driver.
 2. USB: Work.
 3. Wired network card: Work.
-4. Wi-Fi: Use itlwm.kext to simulate a wired network card driver, which needs to be used with HeliPort.app.
+4. Wi-Fi: Use OpenCore-Patcher to driver.
 5. Wake up from sleep: normal.
 
 ![Power Saver](https://s2.loli.net/2023/06/19/DlKsPrtFmwVfEqU.png)
 
 1. Power off and on: Work.
 2. iCloud & App Store & iMessage & FaceTime: Please generate the Board Serial Number, Serial Number, SmUUID by yourself, and modify the "Custom UUID" in the SysPrameter system parameters, and the MLB and ROM in the RtVariables variable settings accordingly.
-3. AirDrop: It simulates the driver of the wired network card,Not work.
-4. HandOff: Normal.
-5. Continuity: Not work.
-6. Apple Watch Unlock: Wi-Fi and Bluetooth must both turned,Not work.
+3. AirDrop: work.
+4. HandOff: work.
+5. Continuity: work.
+6. Apple Watch Unlock: work.
 
 
 ![Wi-Fi en1](https://s2.loli.net/2023/06/19/B5Gkdyuxq2aLpnN.png)
