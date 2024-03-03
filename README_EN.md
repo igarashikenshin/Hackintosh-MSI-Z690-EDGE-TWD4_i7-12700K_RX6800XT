@@ -8,7 +8,7 @@
 
 ### Configuration
 1. Motherboard: MSI MPG Z690 EDGE TI WIFI DDR4
-1. BIOS version: 7D31vAE
+1. BIOS version: 7D31vAG
 1. CPU: Intel® Core™ i7-12700K 12-Core Processor
 1. Core Graphics: Intel® UHD Graphics 770
 1. Standalone: ​​Yeston Radeon RX 6800 XT SAKURA Edition
@@ -22,13 +22,12 @@
 1. SR-IOV Support: [Enabled]
 2. Fast Boot: [Disabled]
 3. Secure Boot: [Disabled]
-4. IGD Multi-Monitor: [Disabled]
-5. D.T.M: [Enabled]
+4. D.T.M: [Enabled]
 
 
-**Applicable OS version: macOS Catalina 12.1～macOS Monterey 14.1 Beta1**
+**Applicable OS version: macOS Catalina 12.1～macOS Monterey 14.4 RC**
 
-1. OpenCore version: 0.9.6 (10-02)
+1. OpenCore version: 0.9.9 (03-02)
 1. CPU frequency conversion: Work.
 ![geekbench6](https://s2.loli.net/2023/06/19/6Wbvf9dog5K7SwB.png)
 ![cinebench](https://s2.loli.net/2023/06/19/CBetHYmy1RIanFS.png)
