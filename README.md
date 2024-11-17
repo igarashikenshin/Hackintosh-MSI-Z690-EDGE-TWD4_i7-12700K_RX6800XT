@@ -27,7 +27,7 @@
 3. 安全启动：[禁止]
 4. D.T.M:[允许]
 
-**可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 15.2 Beta**
+**可适用操作系统版本：macOS Catalina 12.1～macOS Sequoia 15.2 Beta**
 
 1. OpenCore版本：1.0.3 (11-16)
 1. CPU变频：正常。
