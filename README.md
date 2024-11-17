@@ -6,12 +6,12 @@
 ｜[English](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT/blob/main/README_EN.md)
 
 
-![System Info](https://s2.loli.net/2024/03/03/5HVdtn97mGwBaMu.png)
+![System Info](https://s2.loli.net/2024/11/17/IqmvxEQ1sdCcHA4.png)
 
 
 ### 配置
 1. 主板: MSI MPG Z690 EDGE TI WIFI DDR4
-1. BIOS版本：7D31vAG
+1. BIOS版本：7D31vAK
 1. CPU: Intel® Core™ i7-12700K 12-Core Processor
 1. 核显: Intel® UHD Graphics 770
 1. 独显: Yeston Radeon RX 6800 XT SAKURA Edition
@@ -27,9 +27,9 @@
 3. 安全启动：[禁止]
 4. D.T.M:[允许]
 
-**可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 14.4 RC**
+**可适用操作系统版本：macOS Catalina 12.1～macOS Monterey 15.2 Beta**
 
-1. OpenCore版本：0.9.9 (03-02)
+1. OpenCore版本：1.0.3 (11-16)
 1. CPU变频：正常。
 ![geekbench6](https://s2.loli.net/2023/06/19/6Wbvf9dog5K7SwB.png)
 ![cinebench](https://s2.loli.net/2023/06/19/CBetHYmy1RIanFS.png)
