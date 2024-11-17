@@ -3,12 +3,12 @@
 [中文](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT/blob/main/README.md)｜[日本語](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT/blob/main/README_JP.md)
 ｜[English](https://github.com/igarashikenshin/Hackintosh-MSI-Z690-EDGE-TWD4_i7-12700K_RX6800XT/blob/main/README_EN.md)
 
-![System Info](https://s2.loli.net/2024/03/03/5HVdtn97mGwBaMu.png)
+![System Info](https://s2.loli.net/2024/11/17/IqmvxEQ1sdCcHA4.png)
 
 
 ### 構成
 1. マザーボード：MSI MPG Z690 EDGE TI WIFI DDR4
-1. BIOSバージョン：7D31vAG
+1. BIOSバージョン：7D31vAK
 1. CPU：Intel® Core™ i7-12700K 12-Core Processor
 1. コアグラフィックス：Intel® UHD Graphics 770
 1. スタンドアロン：YestonRadeon RX 6800 XT SAKURA Edition
@@ -24,9 +24,9 @@
 3. Secure Boot:[無效]
 4. D.T.M: [有効]
 
-**該当するOSバージョン：macOS Catalina 12.1〜macOS Monterey 14.4 RC **
+**該当するOSバージョン：macOS Catalina 12.1〜macOS Sequoia 15.2 Beta **
 
-1. OpenCoreバージョン：0.9.9 (03-02)
+1. OpenCoreバージョン：1.0.3 (11-16)
 1. CPU周波数変換：正常。
 ![geekbench6](https://s2.loli.net/2023/06/19/6Wbvf9dog5K7SwB.png)
 ![cinebench](https://s2.loli.net/2023/06/19/CBetHYmy1RIanFS.png)
